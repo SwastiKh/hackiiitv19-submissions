@@ -9,12 +9,14 @@ import { environment } from '../environments/environment';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireAuthModule } from '@angular/fire/auth';
+import { HospitalListComponent } from './components/hospital-list/hospital-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    MapComponent
+    MapComponent,
+    HospitalListComponent
   ],
   imports: [
     BrowserModule,
