@@ -7,8 +7,8 @@ by team 23
 Heathcare and biomedical devices
 
 ## Team members
-Swasti Khurana (Team Leader)
-Pushkar Patel
-Siddharth Tiwari
-Siddharth Mani Tiwari 
-Kishan Dhakkan
+- Swasti Khurana (Team Leader)
+- Pushkar Patel
+- Siddharth Tiwari
+- Siddharth Mani Tiwari 
+- Kishan Dhakkan
