@@ -1,1 +1,3 @@
 <div #map style="width:100%;height:400px"></div>
+<button class="button_cont" align="center" [routerLink] = "['/list']" routerLinkActive = "router-link-active"><a class="example_b">I am the victim.</a></button>
+<button class="button_cont" align="center" [routerLink] = "['/list']" routerLinkActive = "router-link-active" (click)="HospitalListComponent.constructor()"><a class="example_b">First Responder</a></button>

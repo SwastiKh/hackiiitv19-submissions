@@ -1,5 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { } from 'googlemaps';
+
+/// <reference types="@types/googlemaps"/>
+import {} from 'googlemaps';
 
 @Component({
     selector: 'app-map',
@@ -12,7 +14,6 @@ export class MapComponent implements OnInit {
     constructor() { }
 
     ngOnInit() {
-        this.getLocation();
         const mapProperties = {
             center: new google.maps.LatLng(22.000, 22.000),
             zoom: 10,
