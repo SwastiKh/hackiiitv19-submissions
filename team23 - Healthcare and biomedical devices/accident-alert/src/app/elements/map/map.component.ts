@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { } from 'googlemaps';
-import { ViewChild } from '@angular/core';
 
 @Component({
     selector: 'app-map',
@@ -8,7 +7,7 @@ import { ViewChild } from '@angular/core';
     styleUrls: ['./map.component.css']
 })
 export class MapComponent implements OnInit {
-    @ViewChild('map') mapElement: any;
+    @ViewChild('map', {static: false}) mapElement: any;
     map: google.maps.Map;
     constructor() { }
 
