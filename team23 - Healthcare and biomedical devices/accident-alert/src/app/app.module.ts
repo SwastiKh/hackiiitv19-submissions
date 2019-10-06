@@ -11,8 +11,13 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { HospitalListComponent } from './components/hospital-list/hospital-list.component';
 import { AgmCoreModule } from '@agm/core';
+<<<<<<< HEAD
 import { AboutComponent } from './components/about/about.component';
+=======
+import {enableProdMode} from "@angular/core";
+>>>>>>> c4f8c06c3d041f247ae551b7ce382c6079841a48
 
+enableProdMode();
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +34,7 @@ import { AboutComponent } from './components/about/about.component';
     AngularFirestoreModule.enablePersistence(),
     AngularFireAuthModule, // imports firebase/auth, only needed for auth features,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyDU3oKqFRbQ6xqohg83BOD0DfUPkm',
+      apiKey: 'AIzaSyBkFLSR9Xc8KRA7-tA2C9ip91hTeF43ais',
     })
   ],
   providers: [],
