@@ -9,7 +9,7 @@
     border: none;
     transition: all 0.4s ease 0s;
     float: left;
-    border: 1px;
+    border: 1px white;
     }
 .example_b:hover 
 {
