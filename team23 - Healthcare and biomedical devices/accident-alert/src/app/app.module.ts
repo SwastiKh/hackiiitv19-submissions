@@ -10,6 +10,7 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { HospitalListComponent } from './components/hospital-list/hospital-list.component';
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,9 @@ import { HospitalListComponent } from './components/hospital-list/hospital-list.
     AngularFirestoreModule, // imports firebase/firestore, only needed for database features
     AngularFirestoreModule.enablePersistence(),
     AngularFireAuthModule, // imports firebase/auth, only needed for auth features,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyDU3oKqFRbQ6xqohg83BOD0DfUPkm',
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

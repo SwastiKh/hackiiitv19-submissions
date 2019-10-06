@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+text-align: center;
+background: #000000 !important;
+font-family: "Open Sans" !important;
+font-weight: 400 !important;
+}
+
+h1, h2, button {
+font-family: "Open Sans" !important;
+}
