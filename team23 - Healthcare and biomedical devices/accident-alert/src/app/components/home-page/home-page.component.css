@@ -5,6 +5,10 @@
     position: absolute;               /* 2 */
     top: 50%;                         /* 3 */
     transform: translate(0, -50%) }   /* 4 */
+body
+{
+	background-color: black;
+}
 
 h1
 {
@@ -12,7 +16,7 @@ h1
 }
 
 .btn{
-    display: inline-block;
+    display: inline-block; 
     text-decoration: none;
     background: #e60000;
     color: #FFF;

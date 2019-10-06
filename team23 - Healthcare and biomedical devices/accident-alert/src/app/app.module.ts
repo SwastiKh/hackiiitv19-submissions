@@ -11,6 +11,7 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { HospitalListComponent } from './components/hospital-list/hospital-list.component';
 import { AgmCoreModule } from '@agm/core';
+import { AboutComponent } from './components/about/about.component';
 import {enableProdMode} from "@angular/core";
 
 enableProdMode();
@@ -19,7 +20,8 @@ enableProdMode();
     AppComponent,
     HomePageComponent,
     MapComponent,
-    HospitalListComponent
+    HospitalListComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
