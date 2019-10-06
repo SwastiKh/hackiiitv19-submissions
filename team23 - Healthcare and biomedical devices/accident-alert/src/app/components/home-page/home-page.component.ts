@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MapComponent } from '../../elements/map/map.component';
+import { AuthService } from '../../auth.service';
 
 @Component({
     selector: 'app-home',
