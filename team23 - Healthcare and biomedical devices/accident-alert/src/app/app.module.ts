@@ -11,7 +11,9 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { HospitalListComponent } from './components/hospital-list/hospital-list.component';
 import { AgmCoreModule } from '@agm/core';
+import {enableProdMode} from "@angular/core";
 
+enableProdMode();
 @NgModule({
   declarations: [
     AppComponent,

@@ -3,13 +3,13 @@
     text-transform: uppercase;
     text-decoration: none;
     background: #60a3bc;
-    padding: 20px;
+    padding: 5px;
     border-radius: 50px;
     display: inline-block;
     border: none;
     transition: all 0.4s ease 0s;
-    float: left;
     border: 1px;
+    margin: 10px
     }
 .example_b:hover 
 {
@@ -36,5 +36,5 @@ html, body {
   }
 
 agm-map {
-    height: 300px;
+    height: 700px;
 }
