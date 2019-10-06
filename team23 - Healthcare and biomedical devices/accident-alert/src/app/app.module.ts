@@ -27,7 +27,7 @@ import { AgmCoreModule } from '@agm/core';
     AngularFirestoreModule.enablePersistence(),
     AngularFireAuthModule, // imports firebase/auth, only needed for auth features,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyDU3oKqFRbQ6xqohg83BOD0DfUPkm',
+      apiKey: 'AIzaSyBkFLSR9Xc8KRA7-tA2C9ip91hTeF43ais',
     })
   ],
   providers: [],
