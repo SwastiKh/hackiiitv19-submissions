@@ -1,18 +1,21 @@
-<!-- <div *ngIf="auth.user$ | async; then authenticated else guest"> -->
+<div *ngIf="auth.user$ | async; then authenticated else guest">
     <!-- template will replace this div -->
+</div>
 
 <!-- User NOT logged in -->
-<!-- <ng-template #authenticated> -->
+<ng-template #authenticated>
 <p class="container3">
     <button class="btn" [routerLink] = "['/mapComp']" routerLinkActive = "router-link-active">REPORT ACCIDENT</button>
 </p>
-<!-- </ng-template> -->
+</ng-template>
 
 <ng-template #guest>
+    <div>
         <h3>Hello There!</h3>
         <p>Please login to get started...</p>
         
         <button (click)="auth.googleSignin()">
             <i class="fa fa-google"></i> Connect Google
         </button>
+    </div>
 </ng-template>
