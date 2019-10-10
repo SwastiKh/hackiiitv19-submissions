@@ -1,0 +1,14 @@
+<!-- <div #map style="width:100%;height:400px"></div> -->
+<agm-map 
+    [latitude]="latitude" 
+    [longitude]="longitude" 
+    [zoom]="zoom" >
+<agm-marker 
+  [latitude]="latitude" 
+  [longitude]="longitude"></agm-marker>
+</agm-map>
+
+<div>
+        <button class="example_b" align="center" [routerLink] = "['/list']" routerLinkActive = "router-link-active"><a class="example_b">I am the victim.</a></button>
+        <button class="example_b"align="center" [routerLink] = "['/list']" routerLinkActive = "router-link-active" (click)="HospitalListComponent.constructor()"><a class="example_b">First Responder</a></button>
+</div>
